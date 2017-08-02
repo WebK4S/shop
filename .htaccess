@@ -1,0 +1,4 @@
+Options FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([^-]+)/$ index.php?action=$1 [L]
